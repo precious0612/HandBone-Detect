@@ -1,0 +1,268 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>JPEGImages</folder>
+<filename>6948.png</filename>
+<path>E:\hand_bone_data\voc\VOCdevkit\VOC2007\JPEGImages\6948.png</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>1458</width>
+    <height>2007</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>Radius</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>675</xmin>
+        <ymin>1481</ymin>
+        <xmax>957</xmax>
+        <ymax>1856</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>Ulna</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>534</xmin>
+        <ymin>1584</ymin>
+        <xmax>726</xmax>
+        <ymax>1886</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>Ulna</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>840</xmin>
+        <ymin>1180</ymin>
+        <xmax>1081</xmax>
+        <ymax>1441</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>MCP</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>783</xmin>
+        <ymin>903</ymin>
+        <xmax>959</xmax>
+        <ymax>1156</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>MCP</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>595</xmin>
+        <ymin>919</ymin>
+        <xmax>771</xmax>
+        <ymax>1172</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>MCP</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>485</xmin>
+        <ymin>1009</ymin>
+        <xmax>616</xmax>
+        <ymax>1205</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>MCP</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>383</xmin>
+        <ymin>1090</ymin>
+        <xmax>534</xmax>
+        <ymax>1311</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>ProximalPhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1020</xmin>
+        <ymin>979</ymin>
+        <xmax>1216</xmax>
+        <ymax>1179</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>ProximalPhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>771</xmin>
+        <ymin>747</ymin>
+        <xmax>938</xmax>
+        <ymax>943</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>ProximalPhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>587</xmin>
+        <ymin>772</ymin>
+        <xmax>746</xmax>
+        <ymax>972</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>ProximalPhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>440</xmin>
+        <ymin>858</ymin>
+        <xmax>591</xmax>
+        <ymax>1045</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>ProximalPhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>338</xmin>
+        <ymin>988</ymin>
+        <xmax>469</xmax>
+        <ymax>1156</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>DistalPhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1130</xmin>
+        <ymin>772</ymin>
+        <xmax>1310</xmax>
+        <ymax>1025</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>DistalPhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>755</xmin>
+        <ymin>347</ymin>
+        <xmax>910</xmax>
+        <ymax>535</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>DistalPhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>485</xmin>
+        <ymin>298</ymin>
+        <xmax>644</xmax>
+        <ymax>515</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>DistalPhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>240</xmin>
+        <ymin>413</ymin>
+        <xmax>412</xmax>
+        <ymax>621</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>DistalPhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>122</xmin>
+        <ymin>686</ymin>
+        <xmax>265</xmax>
+        <ymax>878</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>MiddlePhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>216</xmin>
+        <ymin>870</ymin>
+        <xmax>367</xmax>
+        <ymax>1005</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>MiddlePhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>330</xmin>
+        <ymin>666</ymin>
+        <xmax>514</xmax>
+        <ymax>817</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>MiddlePhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>520</xmin>
+        <ymin>542</ymin>
+        <xmax>724</xmax>
+        <ymax>758</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>MiddlePhalanx</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>751</xmin>
+        <ymin>523</ymin>
+        <xmax>942</xmax>
+        <ymax>735</ymax>
+    </bndbox>
+</object>
+</annotation>

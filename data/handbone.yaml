@@ -1,0 +1,14 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ./handbone/  # dataset root dir
+train: data/VOCdevkit/train.txt  # train images (relative to 'path') 128 images
+val: data/VOCdevkit/trainval.txt  # val images (relative to 'path') 128 images
+test:  data/VOCdevkit/val.txt # test images (optional)
+
+names:
+  0: Radius
+  1: Ulna
+  2: MCPFirst
+  3: MCP
+  4: ProximalPhalanx
+  5: MiddlePhalanx
+  6: DistalPhalanx

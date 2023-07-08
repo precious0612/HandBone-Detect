@@ -4,7 +4,7 @@ Validate a trained YOLOv5 classification model on a classification dataset
 
 Usage:
     $ bash data/scripts/get_imagenet.sh --val  # download ImageNet val split (6.3G, 50000 images)
-    $ python classify/val.py --weights yolov5m-cls.pt --data ../datasets/imagenet --img 224  # validate ImageNet
+    $ python classify/val.py --weights yolov5m-cls.pt --data /Users/precious/datasets/imagenet --img 224  # validate ImageNet
 
 Usage - formats:
     $ python classify/val.py --weights yolov5s-cls.pt                 # PyTorch
@@ -43,7 +43,7 @@ from utils.torch_utils import select_device, smart_inference_mode
 
 @smart_inference_mode()
 def run(
-    data=ROOT / '../datasets/mnist',  # dataset dir
+    data=ROOT / '/Users/precious/datasets/mnist',  # dataset dir
     weights=ROOT / 'yolov5s-cls.pt',  # model.pt path(s)
     batch_size=128,  # batch size
     imgsz=224,  # inference size (pixels)
@@ -143,7 +143,7 @@ def run(
 
 def parse_opt():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data', type=str, default=ROOT / '../datasets/mnist', help='dataset path')
+    parser.add_argument('--data', type=str, default=ROOT / '/Users/precious/datasets/mnist', help='dataset path')
     parser.add_argument('--weights', nargs='+', type=str, default=ROOT / 'yolov5s-cls.pt', help='model.pt path(s)')
     parser.add_argument('--batch-size', type=int, default=128, help='batch size')
     parser.add_argument('--imgsz', '--img', '--img-size', type=int, default=224, help='inference size (pixels)')

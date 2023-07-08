@@ -21,7 +21,7 @@ else
 fi
 
 # Make dir
-d='../datasets/imagenet' # unzip directory
+d='/Users/precious/datasets/imagenet' # unzip directory
 mkdir -p $d && cd $d
 
 # Download/unzip train

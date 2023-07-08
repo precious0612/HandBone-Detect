@@ -1,0 +1,7 @@
+Radius
+Ulna
+MCPFirst
+MCP
+ProximalPhalanx
+MiddlePhalanx
+DistalPhalanx

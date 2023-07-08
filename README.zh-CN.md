@@ -19,7 +19,7 @@
 
 YOLOv5 🚀 是世界上最受欢迎的视觉 AI，代表<a href="https://ultralytics.com"> Ultralytics </a>对未来视觉 AI 方法的开源研究，结合在数千小时的研究和开发中积累的经验教训和最佳实践。
 
-我们希望这里的资源能帮助您充分利用 YOLOv5。请浏览 YOLOv5 <a href="https://docs.ultralytics.com/">文档</a> 了解详细信息，在 <a href="https://github.com/ultralytics/yolov5/issues/new/choose">GitHub</a> 上提交问题以获得支持，并加入我们的 <a href="https://discord.gg/2wNGbc6g9X">Discord</a> 社区进行问题和讨论！
+我们希望这里的资源能帮助您充分利用 YOLOv5。请浏览 YOLOv5 <a href="https://docs.ultralytics.com/">文档</a> 了解详细信息，在 <a href="https://github.com/ultralytics/yolov5/issues/new/choose">GitHub</a> 上提交问题以获得支持，并加入我们的 <a href="https://discord.gg/bNc8wwx7Qy">Discord</a> 社区进行问题和讨论！
 
 如需申请企业许可，请在 [Ultralytics Licensing](https://ultralytics.com/license) 处填写表格
 
@@ -42,7 +42,7 @@ YOLOv5 🚀 是世界上最受欢迎的视觉 AI，代表<a href="https://ultral
   <a href="https://www.instagram.com/ultralytics/" style="text-decoration:none;">
     <img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-instagram.png" width="2%" alt="" /></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="2%" alt="" />
-  <a href="https://discord.gg/2wNGbc6g9X" style="text-decoration:none;">
+  <a href="https://discord.gg/bNc8wwx7Qy" style="text-decoration:none;">
     <img src="https://github.com/ultralytics/assets/blob/main/social/logo-social-discord.png" width="2%" alt="" /></a>
 </div>
 </div>
@@ -365,8 +365,8 @@ YOLOv5 [release v6.2](https://github.com/ultralytics/yolov5/releases) 带来对�
   <summary>Table Notes (点击以展开)</summary>
 
 - 所有模型都使用 SGD 优化器训练 90 个 epochs，都使用 `lr0=0.001` 和 `weight_decay=5e-5` 参数， 图像大小为 224 ，且都使用默认设置。<br>训练 log 可以查看 https://wandb.ai/glenn-jocher/YOLOv5-Classifier-v6-2
-- **准确性**都在单模型单尺度上计算，数据集使用 [ImageNet-1k](https://www.image-net.org/index.php) 。<br>复现命令 `python classify/val.py --data ../datasets/imagenet --img 224`
-- **推理速度**是使用 100 个推理图像进行平均得到，测试环境使用谷歌 [Colab Pro](https://colab.research.google.com/signup) V100 高 RAM 实例。<br>复现命令 `python classify/val.py --data ../datasets/imagenet --img 224 --batch 1`
+- **准确性**都在单模型单尺度上计算，数据集使用 [ImageNet-1k](https://www.image-net.org/index.php) 。<br>复现命令 `python classify/val.py --data /Users/precious/datasets/imagenet --img 224`
+- **推理速度**是使用 100 个推理图像进行平均得到，测试环境使用谷歌 [Colab Pro](https://colab.research.google.com/signup) V100 高 RAM 实例。<br>复现命令 `python classify/val.py --data /Users/precious/datasets/imagenet --img 224 --batch 1`
 - **模型导出**到 FP32 的 ONNX 和 FP16 的 TensorRT 使用 `export.py` 。<br>复现命令 `python export.py --weights yolov5s-cls.pt --include engine onnx --imgsz 224`
   </details>
   </details>
@@ -392,7 +392,7 @@ python -m torch.distributed.run --nproc_per_node 4 --master_port 1 classify/trai
 
 ```bash
 bash data/scripts/get_imagenet.sh --val  # download ImageNet val split (6.3G, 50000 images)
-python classify/val.py --weights yolov5m-cls.pt --data ../datasets/imagenet --img 224  # validate
+python classify/val.py --weights yolov5m-cls.pt --data /Users/precious/datasets/imagenet --img 224  # validate
 ```
 
 ### 预测
@@ -461,7 +461,7 @@ YOLOv5 在两种不同的 License 下可用：
 
 ## <div align="center">联系我们</div>
 
-对于 YOLOv5 的错误报告和功能请求，请访问 [GitHub Issues](https://github.com/ultralytics/yolov5/issues)，并加入我们的 [Discord](https://discord.gg/2wNGbc6g9X) 社区进行问题和讨论！
+对于 YOLOv5 的错误报告和功能请求，请访问 [GitHub Issues](https://github.com/ultralytics/yolov5/issues)，并加入我们的 [Discord](https://discord.gg/bNc8wwx7Qy) 社区进行问题和讨论！
 
 <br>
 <div align="center">
@@ -483,7 +483,7 @@ YOLOv5 在两种不同的 License 下可用：
   <a href="https://www.instagram.com/ultralytics/" style="text-decoration:none;">
     <img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-instagram.png" width="3%" alt="" /></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="" />
-  <a href="https://discord.gg/2wNGbc6g9X" style="text-decoration:none;">
+  <a href="https://discord.gg/bNc8wwx7Qy" style="text-decoration:none;">
     <img src="https://github.com/ultralytics/assets/blob/main/social/logo-social-discord.png" width="3%" alt="" /></a>
 </div>
 

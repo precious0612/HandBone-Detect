@@ -107,7 +107,7 @@ class ClearmlLogger:
             # Get ClearML Dataset Version if requested
             if opt.data.startswith('clearml://'):
                 # data_dict should have the following keys:
-                # names, nc (number of classes), test, train, val (all three relative paths to ../datasets)
+                # names, nc (number of classes), test, train, val (all three relative paths to /Users/precious/datasets)
                 self.data_dict = construct_dataset(opt.data)
                 # Set data to data_dict because wandb will crash without this information and opt is the best way
                 # to give it to them
