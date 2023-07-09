@@ -2,7 +2,7 @@
 
 这个项目是在大三下学期的实训项目中实现的。项目的主要目标是开发一个能够根据手骨关节判断骨龄的系统。
 
-[中文版本](#README)|[English version](#README.en)
+[中文版本](#README.md)|[English version](#README.en.md)
 
 我们首先使用YOLOv5模型来训练手部X光图像进行语义分割。
 
