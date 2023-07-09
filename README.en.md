@@ -2,7 +2,7 @@
 
 This project was implemented in the junior year's practice project. The main goal of the project is to develop a system that can determine the bone age based on the hand bone joints.
 
-[中文版本](#README)|[English version](#README_EN)
+[中文版本](README.md)|[English version](README.en.md)
 
 We first use the YOLOv5 model to train the semantic segmentation of hand X-ray images.
 
