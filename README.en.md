@@ -42,3 +42,5 @@ The other parts are also implemented based on keras:
 - `handbone/hand_bone_detect.py`
 - `handbone/hand_view.py`
 - `handbone/main.py`
+
+![Result Show](result.png)
