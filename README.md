@@ -40,3 +40,6 @@ yolov5阶段项目结构：
 - `handbone/hand_bone_detect.py`
 - `handbone/hand_view.py`
 - `handbone/main.py`
+
+![结果展示](result.png)
+
